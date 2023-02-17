@@ -1,0 +1,6 @@
+# Ignore All
+*
+
+# Allow List
+!.gitignore
+!.zshrc
