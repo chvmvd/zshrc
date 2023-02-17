@@ -1,0 +1,29 @@
+{
+  "title": "Change Japanese Kana to Ctrl and Enter",
+  "rules": [
+    {
+      "description": "Change Japanese Kana to Ctrl and Enter",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "japanese_kana",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_control"
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "return_or_enter"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

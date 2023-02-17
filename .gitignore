@@ -9,3 +9,8 @@
 !.config/karabiner/
 .config/karabiner/*
 !.config/karabiner/karabiner.json
+!.config/karabiner/assets/
+.config/karabiner/assets/*
+!.config/karabiner/assets/complex_modifications/
+!.config/karabiner/assets/complex_modifications/*
+.config/karabiner/assets/complex_modifications/.DS_Store
