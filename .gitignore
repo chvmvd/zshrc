@@ -4,6 +4,8 @@
 # Allow List
 !.gitignore
 !.zshrc
+
+# Karabiner-elements
 !.config/
 .config/*
 !.config/karabiner/
@@ -14,3 +16,14 @@
 !.config/karabiner/assets/complex_modifications/
 !.config/karabiner/assets/complex_modifications/*
 .config/karabiner/assets/complex_modifications/.DS_Store
+
+# VSCode
+!Library/
+Library/*
+!Library/Application\ Support/
+Library/Application\ Support/*
+!Library/Application\ Support/Code/
+Library/Application\ Support/Code/*
+!Library/Application\ Support/Code/User/
+Library/Application\ Support/Code/User/*
+!Library/Application\ Support/Code/User/settings.json
