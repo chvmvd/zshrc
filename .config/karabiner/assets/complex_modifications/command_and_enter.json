@@ -1,8 +1,8 @@
 {
-  "title": "Change Japanese Eisuu to Command and Delete",
+  "title": "Change Japanese Eisuu to Command and Enter",
   "rules": [
     {
-      "description": "Change Japanese Eisuu to Command and Delete",
+      "description": "Change Japanese Eisuu to Command and Enter",
       "manipulators": [
         {
           "type": "basic",
@@ -19,7 +19,7 @@
           ],
           "to_if_alone": [
             {
-              "key_code": "delete_or_backspace"
+              "key_code": "return_or_enter"
             }
           ]
         }

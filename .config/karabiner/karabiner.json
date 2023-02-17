@@ -3379,7 +3379,7 @@
             ]
           },
           {
-            "description": "Change Japanese Eisuu to Command and Delete",
+            "description": "Change Japanese Eisuu to Command and Enter",
             "manipulators": [
               {
                 "from": {
@@ -3395,7 +3395,7 @@
                 ],
                 "to_if_alone": [
                   {
-                    "key_code": "delete_or_backspace"
+                    "key_code": "return_or_enter"
                   }
                 ],
                 "type": "basic"
@@ -3403,7 +3403,7 @@
             ]
           },
           {
-            "description": "Change Japanese Kana to Ctrl and Enter",
+            "description": "Change Japanese Kana to Ctrl and Delete",
             "manipulators": [
               {
                 "from": {
@@ -3419,7 +3419,7 @@
                 ],
                 "to_if_alone": [
                   {
-                    "key_code": "return_or_enter"
+                    "key_code": "delete_or_backspace"
                   }
                 ],
                 "type": "basic"
