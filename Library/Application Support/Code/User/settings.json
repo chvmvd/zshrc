@@ -8,5 +8,20 @@
   "editor.inlineSuggest.enabled": true,
   "github.copilot.enable": {
     "*": true
-  }
+  },
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "lualatex",
+      "tools": ["lualatex"]
+    }
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "name": "lualatex",
+      "command": "lualatex",
+      "args": ["%DOC%"],
+      "env": {}
+    }
+  ]
 }
