@@ -23,5 +23,6 @@
       "args": ["%DOC%"],
       "env": {}
     }
-  ]
+  ],
+  "window.zoomLevel": 1
 }
