@@ -17,7 +17,7 @@
 !.config/karabiner/assets/complex_modifications/*
 .config/karabiner/assets/complex_modifications/.DS_Store
 
-# VSCode
+# VS Code
 !Library/
 Library/*
 !Library/Application\ Support/
