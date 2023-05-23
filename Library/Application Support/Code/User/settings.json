@@ -2,6 +2,9 @@
   "workbench.colorTheme": "Default Dark+",
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
   "editor.inlineSuggest.enabled": true,
   "github.copilot.enable": {
     "*": true
