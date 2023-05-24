@@ -4,6 +4,7 @@
 # Allow List
 !.gitignore
 !.zshrc
+!romantable.txt
 
 # Karabiner-elements
 !.config/
