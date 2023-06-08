@@ -24,5 +24,12 @@
       "env": {}
     }
   ],
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+  "dev.containers.defaultExtensions": [
+    "eamodio.gitlens",
+    "mhutchie.git-graph",
+    "znck.grammarly",
+    "genieai.chatgpt-vscode",
+    "GitHub.copilot"
+  ]
 }
