@@ -5,6 +5,7 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
+  "python.linting.flake8Args": ["--ignore=E501,W503"],
   "editor.inlineSuggest.enabled": true,
   "github.copilot.enable": {
     "*": true
